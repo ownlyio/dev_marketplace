@@ -1,2 +1,2 @@
 # marketplace
-Ownly Marketplace
+Ownly Dev Marketplace
