@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd691a78-523e-4f37-99d2-bf03f1d93725" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ownly-logo-horizontal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/ownly-transparent.png" afterDir="false" />
+    <list default="true" id="fd691a78-523e-4f37-99d2-bf03f1d93725" name="Default Changelist" comment="Change">
+      <change afterPath="$PROJECT_DIR$/img/og-image-3.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/og-image-2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +40,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ownlyio.marketplace.dev" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -71,7 +72,8 @@
       <updated>1625068526357</updated>
       <workItem from="1625068530471" duration="48000" />
       <workItem from="1625102930739" duration="67297000" />
-      <workItem from="1625457369324" duration="900000" />
+      <workItem from="1625457369324" duration="3276000" />
+      <workItem from="1625475026668" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="Add &quot;The Titans Are Coming&quot; countdown page">
       <created>1625417124860</created>
@@ -87,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625454895203</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add Ownly logo at bottom left part redirecting main site">
+      <created>1625458386786</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1625458386786</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +118,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add &quot;The Titans Are Coming&quot; countdown page" />
     <MESSAGE value="Add email submission and make the page mobile responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add email submission and make the page mobile responsive" />
+    <MESSAGE value="Add Ownly logo at bottom left part redirecting main site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Ownly logo at bottom left part redirecting main site" />
   </component>
 </project>
