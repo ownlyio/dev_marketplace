@@ -11,7 +11,7 @@
 	<link rel="icon" href="img/ownly.png">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="fontawesome/css/all.css">
-	<link rel="stylesheet" href="css/style.css?v=1">
+	<link rel="stylesheet" href="css/style.css?v=2">
 	
 	<meta property="og:url" content="https://ownly.io" />
 	<meta property="og:type" content="website" />
@@ -22,43 +22,43 @@
 <body>
 	<div style="overflow-x:hidden">
 		<div class="d-flex justify-content-center align-items-center background-image-cover min-vh-100" style="background-image:url('img/bg/bg.jpg')">
-			<div class="d-flex flex-column align-items-center py-5">
-				<div class="bg-white text-color-6 text-center font-size-400 p-3 neo-black line-height-100 mb-4">THE TITANS ARE COMING</div>
+			<div class="d-flex flex-column align-items-center py-5 mb-4">
+				<div class="bg-white text-color-6 text-center font-size-140 font-size-sm-280 font-size-md-350 font-size-lg-400 p-3 neo-black line-height-100 mb-4">THE TITANS ARE COMING</div>
 				
 				<div class="w-100 py-1"></div>
 				
-				<div class="py-3 px-3 shadow mb-5" style="min-width:620px; background:rgb(36,43,51); background:radial-gradient(circle, rgba(36,43,51,1) 0%, rgba(19,22,27,1) 100%)">
-					<div class="row px-5">
-						<div class="col-3 px-2">
-							<div class="text-center text-white font-size-90 mb-3">DAYS</div>
-							<div class="position-relative bg-color-17 text-white text-center font-size-440">
+				<div class="py-3 px-3 shadow mb-5" id="countdown-container" style="background:rgb(36,43,51); background:radial-gradient(circle, rgba(36,43,51,1) 0%, rgba(19,22,27,1) 100%)">
+					<div class="row px-3 px-sm-5">
+						<div class="col-3 px-1 px-sm-2">
+							<div class="text-center text-white font-size-60 font-size-sm-80 font-size-lg-90 mb-2 mb-sm-3">DAYS</div>
+							<div class="position-relative bg-color-17 text-white text-center font-size-180 font-size-sm-320 font-size-md-390 font-size-lg-440">
 								<div class="position-absolute w-100 bg-color-17" style="top:50%; height:2px; box-shadow:0px 0px 10px 0.02em rgba(0,0,0,1)"></div>
 								<div class="position-absolute bg-color-18" style="top:50%; height:10px; width:1px; margin-top:-4px"></div>
 								<div class="position-absolute bg-color-18" style="top:50%; right:0; height:10px; width:1px; margin-top:-4px"></div>
 								<div class="neo-bold p-1" id="days">&nbsp;</div>
 							</div>
 						</div>
-						<div class="col-3 px-2">
-							<div class="text-center text-white font-size-90 mb-3">HOURS</div>
-							<div class="position-relative bg-color-17 text-white text-center font-size-440">
+						<div class="col-3 px-1 px-sm-2">
+							<div class="text-center text-white font-size-60 font-size-sm-80 font-size-lg-90 mb-2 mb-sm-3">HOURS</div>
+							<div class="position-relative bg-color-17 text-white text-center font-size-180 font-size-sm-320 font-size-md-390 font-size-lg-440">
 								<div class="position-absolute w-100 bg-color-17" style="top:50%; height:2px; box-shadow:0px 0px 10px 0.02em rgba(0,0,0,1)"></div>
 								<div class="position-absolute bg-color-18" style="top:50%; height:10px; width:1px; margin-top:-4px"></div>
 								<div class="position-absolute bg-color-18" style="top:50%; right:0; height:10px; width:1px; margin-top:-4px"></div>
 								<div class="neo-bold p-1" id="hours">&nbsp;</div>
 							</div>
 						</div>
-						<div class="col-3 px-2">
-							<div class="text-center text-white font-size-90 mb-3">MINUTES</div>
-							<div class="position-relative bg-color-17 text-white text-center font-size-440">
+						<div class="col-3 px-1 px-sm-2">
+							<div class="text-center text-white font-size-60 font-size-sm-80 font-size-lg-90 mb-2 mb-sm-3">MINUTES</div>
+							<div class="position-relative bg-color-17 text-white text-center font-size-180 font-size-sm-320 font-size-md-390 font-size-lg-440">
 								<div class="position-absolute w-100 bg-color-17" style="top:50%; height:2px; box-shadow:0px 0px 10px 0.02em rgba(0,0,0,1)"></div>
 								<div class="position-absolute bg-color-18" style="top:50%; height:10px; width:1px; margin-top:-4px"></div>
 								<div class="position-absolute bg-color-18" style="top:50%; right:0; height:10px; width:1px; margin-top:-4px"></div>
 								<div class="neo-bold p-1" id="minutes">&nbsp;</div>
 							</div>
 						</div>
-						<div class="col-3 px-2">
-							<div class="text-center text-white font-size-90 mb-3">SECONDS</div>
-							<div class="position-relative bg-color-17 text-white text-center font-size-440">
+						<div class="col-3 px-1 px-sm-2">
+							<div class="text-center text-white font-size-60 font-size-sm-80 font-size-lg-90 mb-2 mb-sm-3">SECONDS</div>
+							<div class="position-relative bg-color-17 text-white text-center font-size-180 font-size-sm-320 font-size-md-390 font-size-lg-440">
 								<div class="position-absolute w-100 bg-color-17" style="top:50%; height:2px; box-shadow:0px 0px 10px 0.02em rgba(0,0,0,1)"></div>
 								<div class="position-absolute bg-color-18" style="top:50%; height:10px; width:1px; margin-top:-4px"></div>
 								<div class="position-absolute bg-color-18" style="top:50%; right:0; height:10px; width:1px; margin-top:-4px"></div>
@@ -68,20 +68,20 @@
 					</div>
 				</div>
 				
-				<div class="text-color-6 text-center font-size-150 py-2 px-3 neo-black pt-5">JOIN OUR VIP LIST FOR THE INSIDE SCOOP!</div>
+				<div class="text-color-6 text-center font-size-120 font-size-sm-130 font-size-md-140 font-size-lg-150 py-2 px-3 neo-black pt-sm-5">JOIN OUR VIP LIST FOR THE INSIDE SCOOP!</div>
 				
 				<form id="newsletter-form" action="https://formspree.io/f/xayajjqb" method="POST">
-					<div class="mb-4" style="min-width:620px">
-						<input type="email" name="email_address" class="form-control shadow-custom-1 px-4 py-2 font-size-120 text-center" placeholder="Your email address" required />
+					<div class="d-flex justify-content-center mb-4">
+						<input type="email" name="email_address" class="form-control d-block shadow-custom-1 px-4 py-2 font-size-100 font-size-lg-120 text-center" placeholder="Your email address" required />
 					</div>
 					
 					<div class="text-center">
-						<button type="submit" class="btn btn-custom-1 px-5 py-2 font-size-90" style="border-radius:35px; letter-spacing:0.05em">
+						<button type="submit" class="btn btn-custom-1 px-5 py-2 font-size-80 font-size-lg-90" style="border-radius:35px; letter-spacing:0.05em">
 							<span class="px-5">LET ME IN!</span>
 						</button>
 					</div>
 					
-					<div class="alert alert-success mt-4 text-center mb-0 d-none" id="signing-up-success">Thank you for subscribing!</div>
+					<div class="alert alert-success mt-4 text-center font-size-90 font-size-lg-100 mb-0 d-none" id="signing-up-success">Thank you for subscribing!</div>
 				</form>
 			</div>
 		</div>
@@ -89,6 +89,6 @@
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.bundle.min.js"></script>
-	<script src="js/script.js?v=1"></script>
+	<script src="js/script.js?v=2"></script>
 </body>
 </html>

@@ -210,18 +210,27 @@ html {
 
 /*##################################################################*/
 
-
+#countdown-container, #newsletter-form input {
+    min-width:300px;
+    width:300px;
+}
 
 @media(min-width:576px) {
-
+    #countdown-container, #newsletter-form input {
+        min-width:520px;
+    }
 }
 
 @media(min-width:768px) {
-
+    #countdown-container, #newsletter-form input {
+        min-width:580px;
+    }
 }
 
 @media(min-width:992px) {
-
+    #countdown-container, #newsletter-form input {
+        min-width:620px;
+    }
 }
 
 @media(min-width:1200px) {

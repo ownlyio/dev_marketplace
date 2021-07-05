@@ -1,3 +1,5 @@
+let newsletter_form;
+
 let pad_zeroes = (number) => {
     number = number.toString();
 
@@ -8,18 +10,13 @@ let pad_zeroes = (number) => {
     return number;
 };
 
-$(document).ready(function() {
+let start_countdown = () => {
     let countDownDate = new Date("Jul 15, 2021 00:00:00").getTime();
 
     let x = setInterval(function() {
-
-        // Get today's date and time
         let now = new Date().getTime();
-
-        // Find the distance between now and the count down date
         let distance = countDownDate - now;
 
-        // Time calculations for days, hours, minutes and seconds
         let days = pad_zeroes(Math.floor(distance / (1000 * 60 * 60 * 24)));
         let hours = pad_zeroes(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
         let minutes = pad_zeroes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
@@ -30,10 +27,43 @@ $(document).ready(function() {
         $("#minutes").text(minutes);
         $("#seconds").text(seconds);
 
-        // If the count down is finished, write some text
         if (distance < 0) {
             clearInterval(x);
-            document.getElementById("demo").innerHTML = "EXPIRED";
+            $("#days").text("00");
+            $("#hours").text("00");
+            $("#minutes").text("00");
+            $("#seconds").text("00");
         }
     }, 1000);
+};
+
+$(document).ready(function() {
+    start_countdown();
+});
+
+$(document).on("submit", "#newsletter-form", async (event) => {
+    event.preventDefault();
+
+    newsletter_form = $("#newsletter-form");
+    newsletter_form.find("[type='submit']").prop("disabled", true);
+
+    let data = new FormData(event.target);
+    fetch(event.target.action, {
+        method: "POST",
+        body: data,
+        headers: {
+            'Accept': 'application/json'
+        }
+    }).then(response => {
+        $("#signing-up-success").removeClass("d-none");
+        newsletter_form.find("input").val("");
+
+        $("#newsletter-form [type='submit']").prop("disabled", false);
+
+        setTimeout(function() {
+            $("#signing-up-success").addClass("d-none");
+        }, 5000);
+    }).catch(error => {
+        console.log('Oops! There was a problem submitting your form');
+    });
 });
