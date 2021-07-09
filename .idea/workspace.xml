@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd691a78-523e-4f37-99d2-bf03f1d93725" name="Default Changelist" comment="Change">
-      <change afterPath="$PROJECT_DIR$/img/og-image-3.PNG" afterDir="false" />
+    <list default="true" id="fd691a78-523e-4f37-99d2-bf03f1d93725" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/og-image-2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,8 @@
       <workItem from="1625068530471" duration="48000" />
       <workItem from="1625102930739" duration="67297000" />
       <workItem from="1625457369324" duration="3276000" />
-      <workItem from="1625475026668" duration="192000" />
+      <workItem from="1625475026668" duration="1096000" />
+      <workItem from="1625793278034" duration="148000" />
     </task>
     <task id="LOCAL-00001" summary="Add &quot;The Titans Are Coming&quot; countdown page">
       <created>1625417124860</created>
@@ -96,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1625458386786</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change OG image">
+      <created>1625475236166</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625475236166</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Fix OG image url">
+      <created>1625475522145</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625475522145</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,6 +133,8 @@
     <MESSAGE value="Add &quot;The Titans Are Coming&quot; countdown page" />
     <MESSAGE value="Add email submission and make the page mobile responsive" />
     <MESSAGE value="Add Ownly logo at bottom left part redirecting main site" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Ownly logo at bottom left part redirecting main site" />
+    <MESSAGE value="Change OG image" />
+    <MESSAGE value="Fix OG image url" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix OG image url" />
   </component>
 </project>

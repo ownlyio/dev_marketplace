@@ -11,7 +11,7 @@ let pad_zeroes = (number) => {
 };
 
 let start_countdown = () => {
-    let countDownDate = new Date("Jul 15, 2021 00:00:00").getTime();
+    let countDownDate = new Date("Jul 16, 2021 08:00:00").getTime();
 
     let x = setInterval(function() {
         let now = new Date().getTime();
